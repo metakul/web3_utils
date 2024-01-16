@@ -15,8 +15,8 @@ export default function Router() {
             children:[
                 { path: '/', element: <HomePage /> },
                 { path: '/login', element: <PatientLoginForm /> },
-                { path: '/learnweb3', element: <LearnWeb3 /> },
-                { path: '/learnsolidity', element: <LearnSolidity /> },
+                { path: '/bytes32tostring', element: <LearnWeb3 /> },
+                { path: '/ipfsuploader', element: <LearnSolidity /> },
             ]
         },
         

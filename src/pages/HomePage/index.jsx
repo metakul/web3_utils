@@ -5,9 +5,8 @@ import HomeButton from '../../Components/Button/HomeButton';
 const Homepage = () => {
   const buttonDataTop = [
     { endpoint: '/home', text: 'Home' },
-    { endpoint: '/learnweb3', text: 'Learn Web3' },
-    { endpoint: '/utilities', text: 'Web3 Utilities' },
-    { endpoint: '/learnsolidity', text: 'Web3 Utilities' },
+    { endpoint: '/bytes32tostring', text: 'Bytes32 -> String' },
+    { endpoint: '/ipfsuploader', text: 'Upload to Ipfs' },
   ];
   return (
     <MainContainer>
